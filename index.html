@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive or Drunk - Smart Ride Sharing</title>
+    <meta name="description" content="A mobile platform connecting sober drivers with people who need safe rides after consuming alcohol. Smart, social, and responsible nightlife transportation.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-car-side"></i>
+                <span>Drive or Drunk</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#architecture" class="nav-link">Architecture</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Drive or Drunk</h1>
+                <p class="hero-subtitle">Smart and socially responsible ride-sharing for nightlife</p>
+                <p class="hero-description">
+                    Connect sober drivers with people who need safe transportation after consuming alcohol. 
+                    A community-driven platform that promotes safety and social responsibility.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Learn More</a>
+                    <button class="btn btn-secondary">View Demo</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <img src="homepage.png" alt="Drive or Drunk App Homepage" class="app-screenshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Find Available Drivers</h3>
+                    <p>Locate sober drivers nearby who can provide safe transportation to your destination.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Local Event Calendar</h3>
+                    <p>Browse events in your area and find drivers specifically available for those events.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3>Event Mapping</h3>
+                    <p>Visualize events and available drivers on an interactive map for easy planning.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>In-App Messaging</h3>
+                    <p>Coordinate ride details directly with drivers through the integrated chat system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Reviews & Ratings</h3>
+                    <p>Rate your experience and read reviews to ensure quality and trustworthiness.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>User Verification</h3>
+                    <p>Verified drivers through ID card verification and facial recognition technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="architecture" class="architecture">
+        <div class="container">
+            <h2 class="section-title">Technical Architecture</h2>
+            <div class="architecture-content">
+                <div class="architecture-info">
+                    <h3>Modern Mobile Platform</h3>
+                    <p>Built with Flutter for cross-platform compatibility and Firebase for scalable backend services.</p>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class="fab fa-flutter"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-google"></i>
+                            <span>Google Maps</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Azure Face API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="architecture-diagram">
+                    <div class="diagram-container">
+                        <div class="layer client-layer">
+                            <h4>Client Layer</h4>
+                            <p>Flutter Mobile App</p>
+                        </div>
+                        <div class="layer auth-layer">
+                            <h4>Authentication</h4>
+                            <p>Firebase Auth + Google Sign-In</p>
+                        </div>
+                        <div class="layer backend-layer">
+                            <h4>Backend Services</h4>
+                            <p>Render + External APIs</p>
+                        </div>
+                        <div class="layer data-layer">
+                            <h4>Data Layer</h4>
+                            <p>Firebase Firestore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Development Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Armando Fiorini</h3>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="eren-pp.jpeg" alt="Ahmet Eren Genis" class="member-photo">
+                    </div>
+                    <h3>Ahmet Eren Genis</h3>
+                    <p>a.erengenis@gmail.com</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Christian Mariano</h3>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Academic Project</h3>
+                <p>Design and Implementation of Mobile Applications</p>
+                <p>Academic Year: 2024-2025</p>
+                <p>Professor: Luciano Baresi</p>
+                <div class="achievement-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span>Excellence Award</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Drive or Drunk. Academic project for mobile application development.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
