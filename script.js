@@ -232,4 +232,15 @@ function animateCounter(element, target, duration = 2000) {
 //     animateCounter(el, target);
 // });
 
+// Video Modal Logic (disabled, now open in new tab)
+const viewDemoBtn = document.querySelector('.btn.btn-secondary');
+const demoVideoUrl = 'https://www.renderforest.com/watch-105833780?queue_id=158998651&quality=0';
+
+if (viewDemoBtn) {
+    viewDemoBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.open(demoVideoUrl, '_blank');
+    });
+}
+
 console.log('Drive or Drunk website loaded successfully! 🚗🍺'); 
